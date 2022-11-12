@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -29,6 +33,10 @@ body {
   font-style: italic;
 }
 
+.empty {
+  flex-grow: 2;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -44,5 +52,10 @@ a {
 }
 
 ul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
   list-style-type: none;
+  margin:0;
+  padding: 0;
 }
